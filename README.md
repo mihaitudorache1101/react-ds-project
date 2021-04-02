@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Distributed Systems Project
 
 MERN Stack project for Distributed Systems lab
