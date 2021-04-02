@@ -45,7 +45,7 @@ function Members() {
                   <button
                     onClick={async () => {
                       if (
-                        window.confirm("Do you want to delete this member?")
+                        window.confirm(`Do you want to delete ${member.name}?`)
                       ) {
                         await axios.delete(
                           `http://localhost:4000/${member._id}`
